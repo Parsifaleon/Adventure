@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background: #0D0D0D;
+	color: #fff;
+	/*font-family: Roboto, sans-serif;*/
+	font-family: 'Press Start 2P', cursive;
+}
+a {
+	text-decoration: none;
+	display: block;
+	color: #fff;
+	font-size: 16px;
+	border: 2px solid #444B77;
+	padding: 15px;
+	transition: .125s;
+}
+a:hover {
+	background: #444B77;
+}
+.wrapper {
+	width: 1180px;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 50px;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-between;
+}
+#example {
+	display: block;
+}
+.menu {
+	width: 396px;
+	height: 768px;
+	background: #060606;
+	padding: 30px;
+	border: 3px solid #262A43;
+}
+.main-title {
+	margin-left: 20px;
+}
+.menu h2 {
+	font-size: 25px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.menu p {
+  line-height: 20px;
+  font-size: 14px;
+  margin-left: 20px;
+  color: #fff;
+}
+#replay, #xz {
+	/*width: 300px;*/
+	margin-bottom: 20px;
+}
+
+#modal {
+	display: none;
+	position: absolute;
+	width: 1180px;
+	height: 768px;
+	background: #0D0D0D;
+	z-index: 99;
+	color: #fff;
+	-ms-align-items: center;
+	align-items: center;
+}
+#modal h1 {
+	margin-bottom: 40px;
+}
+#restart {
+	margin-top: 50px;
+}
+.titles {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+}
+.titles h3 {
+	font-size: 2em;
+}
